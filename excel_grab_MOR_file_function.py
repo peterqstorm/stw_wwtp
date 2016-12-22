@@ -47,7 +47,6 @@ def MOR_grab_data(year, month):
 			current = unit
 			MOR_data[current]= {} 	#creates a new list if it doesn't exit to store info
 		MOR_data[current][parameter]= col	#adding a dictionary spot in a dictionary
-	print('pete sucks')
 	return MOR_data
 
 
